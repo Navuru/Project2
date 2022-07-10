@@ -35,18 +35,16 @@ span{
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
-    width: auto;
-    height: 400px;
+    /* width: auto/; */
+    /* height: 800px; */
     background-image: url(/Images/image\ 1.png);
-    /* background-color: red; */
-    background-position: 50% 100%;
+    background-size: contain;
 
 }
 .About img{
-    /* position:; */
     left: 500px;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
     top: 150px;
 }
 .stats{
@@ -122,10 +120,6 @@ h2{
     height: 40px;
     width: 40px;
 }
-/* .reviews :first-child{
-    color: red;
-    box-shadow:3px 3px rgb(216, 15, 15);
-} */
 #first{
     box-shadow:3px 3px rgb(224, 219, 219);
     height:250px ;
@@ -174,18 +168,11 @@ i{
     display:flex;
     justify-content: space-around;
 }
-.android{
-    border: 1px solid white;
-    background-color: aliceblue;
-    color: black;
-    width: 120px;
-    height: 90px;
-
+.android img{
+    height: 70px;
+    width: 180px;
 }
 .apple{
-    border: 1px solid white;
-    background-color: aliceblue;
-    color: black;
-    width: 120px;
-    height: 90px;
+    height: 1px;
+    width: 1px;
 }
