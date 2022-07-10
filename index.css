@@ -32,7 +32,7 @@ span{
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
-    background-image: url("/Images/image\ 1.png");
+    background-image: url(/Images/image\ 1.png);
 }
 .About img{
     /* position: absolute; */
@@ -146,4 +146,9 @@ footer{
 }
 a:hover{
     background-color: #ED661F;
+}
+i{
+    color: #ED661F;
+    /* width: 10px; */
+    height: 30px;
 }
