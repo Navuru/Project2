@@ -99,4 +99,26 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-.
+.reviews img{
+    height: 40px;
+    width: 40px;
+}
+/* .reviews :first-child{
+    color: red;
+    box-shadow:3px 3px rgb(216, 15, 15);
+} */
+#first{
+    box-shadow:3px 3px rgb(224, 219, 219);
+    height:180px ;
+    width: 180px;
+}
+#second{
+    box-shadow:3px 3px rgb(224, 219, 219);
+    height:180px ;
+    width: 180px;
+}
+#third{
+    box-shadow:3px 3px rgb(224, 219, 219);
+    height:180px ;
+    width: 180px;
+}
