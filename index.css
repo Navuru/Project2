@@ -32,6 +32,7 @@ span{
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
+    background-image: url("/Images/image\ 1.png");
 }
 .About img{
     /* position: absolute; */
@@ -87,14 +88,23 @@ h2{
     height: 180px;
     width:300px ;
 }
+#more:hover{
+    /* text-align: right; */
+    background-color: #ED661F;
+    /* width: 10px; */
+}
 #more{
+    width: 150px;
+    /* text-align: right; */
+}
+.right{
     text-align: right;
 }
-/* .shadow{
+.shadow{
     box-shadow:3px 3px rgb(216, 15, 15);
     background-color: red;
     color: red;
-} */
+}
 .reviews{
     display: flex;
     justify-content: space-around;
@@ -125,7 +135,15 @@ h2{
 footer{
     background-color: black;
     color: white;
+    height: 500px;
 }
 .center{
     text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+a:hover{
+    background-color: #ED661F;
 }
