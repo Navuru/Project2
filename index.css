@@ -109,10 +109,10 @@ h2{
 .right:hover{
     color: #ED661F;
 }
-.shadow{
-    box-shadow:3px 3px rgb(216, 15, 15);
-    background-color: red;
-    color: red;
+#shadow{
+    box-shadow:3px 3px 2px 5px rgb(197, 187, 187);
+    /* background-color: */
+    /* color: red; */
 }
 .reviews{
     display: flex;
