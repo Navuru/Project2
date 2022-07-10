@@ -49,3 +49,11 @@ span{
     font-weight: bolder;
     /* font-size: large; */
 }
+.why{
+    display: flex;
+}
+.why image{
+    position: left;
+    top: 150px;
+    left: 500px;
+}
