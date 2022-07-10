@@ -30,9 +30,11 @@ span{
 }
 .About{
     font-family: 'Inter';
+    display: flex;
+    justify-content: space-around;
 }
 .About img{
-    position: absolute;
+    /* position: absolute; */
     left: 500px;
     height: 200px;
     width: 300px;
@@ -42,7 +44,6 @@ span{
     display: flex;
     justify-content: space-around;
     box-shadow:3px 3px rgb(224, 219, 219);
-    /* background-color: red; */
     height:80px ;
     font-family: 'Inter';
     font-weight: bolder;
@@ -51,14 +52,29 @@ span{
 .why{
     display: flex;
     font-family: 'Inter';
+    justify-content: space-around;
+
 }
 .why image{
-    position: left;
+    /* position: absolute; */
     top: 150px;
-    left: 500px;
-    justify-content: space-around;
+    /* left: 500px; */
+    /* right: 300px; */
+    /* justify-content: space-around; */
 }
 h2{
     font-family: 'Poppins';
     font-weight: bolder;
+}
+.products{
+    text-align: center;
+    font-family: 'Inter';
+}
+.popular{
+    display: flex;
+    justify-content: space-between;
+}
+.products img{
+    height: 150px;
+    width: 200px;
 }
