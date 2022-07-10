@@ -33,6 +33,7 @@ span{
     display: flex;
     justify-content: space-around;
     background-image: url(/Images/image\ 1.png);
+    background-position: 50%;
 }
 .About img{
     /* position: absolute; */
