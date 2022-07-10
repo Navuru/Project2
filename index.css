@@ -149,6 +149,10 @@ footer{
 .center{
     text-align: center;
 }
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
 .links{
     display: flex;
     justify-content: space-around;
@@ -166,9 +170,22 @@ i{
     height: 50px;
     width: 30px;
 }
+.icons{
+    display:flex;
+    justify-content: space-around;
+}
 .android{
-    border: 1px solid red;
+    border: 1px solid white;
+    background-color: aliceblue;
+    color: black;
+    width: 120px;
+    height: 90px;
+
 }
 .apple{
-    border: 1px solid red;
+    border: 1px solid white;
+    background-color: aliceblue;
+    color: black;
+    width: 120px;
+    height: 90px;
 }
