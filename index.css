@@ -128,18 +128,18 @@ h2{
 } */
 #first{
     box-shadow:3px 3px rgb(224, 219, 219);
-    height:180px ;
-    width: 180px;
+    height:250px ;
+    width: 200px;
 }
 #second{
     box-shadow:3px 3px rgb(224, 219, 219);
-    height:180px ;
-    width: 180px;
+    height:250px ;
+    width: 200px;
 }
 #third{
     box-shadow:3px 3px rgb(224, 219, 219);
-    height:180px ;
-    width: 180px;
+    height:250px ;
+    width: 200px;
 }
 footer{
     background-color: black;
