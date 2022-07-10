@@ -29,8 +29,7 @@ span{
     font-size: xx-large;
 }
 .About{
-    /* display: flex; */
-    /* background-image: ; */
+    font-family: 'Inter';
 }
 .About img{
     position: absolute;
@@ -51,9 +50,15 @@ span{
 }
 .why{
     display: flex;
+    font-family: 'Inter';
 }
 .why image{
     position: left;
     top: 150px;
     left: 500px;
+    justify-content: space-around;
+}
+h2{
+    font-family: 'Poppins';
+    font-weight: bolder;
 }
