@@ -13,7 +13,6 @@ body img{
     list-style-type: none;
     justify-content: space-around;
     padding: 40px;
-    /* font-family: 'Poppins'; */
     font-weight: 900;
 }
 .navbar li{
@@ -28,15 +27,13 @@ span{
     background-color: #ED661F;
 }
 #popins{
-    font-family: 'Poppins';
+    font-family: 'Inter';
     font-size: xx-large;
 }
 .About{
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
-    /* width: auto/; */
-    /* height: 800px; */
     background-image: url(/Images/image\ 1.png);
     background-size: contain;
 
@@ -55,8 +52,11 @@ span{
     height:80px ;
     font-family: 'Inter';
     font-weight: bolder;
-    /* text-align: center; */
-    /* font-size: large; */
+    position: absolute;
+    right: 400px;
+    bottom: 380px;
+    background-color: white;
+    padding: 20px;
 }
 .why{
     display: flex;
@@ -64,17 +64,9 @@ span{
     justify-content: space-around;
 
 }
-.why image{
-    /* position: absolute; */
-    top: 150px;
-    /* left: 500px; */
-    /* right: 300px; */
-    /* justify-content: space-around; */
-}
 h2{
-    font-family: 'Poppins';
+    font-family: 'Inter';
     font-weight: bolder;
-    /* color: rebeccapurple; */
 }
 .products{
     text-align: center;
@@ -83,6 +75,7 @@ h2{
 .popular{
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins';
 }
 .products img{
     height: 150px;
@@ -91,15 +84,14 @@ h2{
 .newest{
     display: flex;
     justify-content: space-around;
+    font-family: 'Poppins';
 }
 .newest img{
     height: 180px;
     width:300px ;
 }
 #more:hover{
-    /* text-align: right; */
     background-color: #ED661F;
-    /* width: 10px; */
 }
 .right{
     text-align: right;
@@ -109,12 +101,12 @@ h2{
 }
 #shadow{
     box-shadow:3px 3px 2px 5px rgb(197, 187, 187);
-    /* background-color: */
-    /* color: red; */
 }
 .reviews{
     display: flex;
     justify-content: space-around;
+    font-family: 'Inter';
+    font-weight: bolder;
 }
 .reviews img{
     height: 40px;
@@ -166,13 +158,13 @@ i{
 }
 .icons{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.android img{
+#android img{
     height: 70px;
     width: 180px;
 }
-.apple{
-    height: 1px;
-    width: 1px;
+#apple img{ 
+    height: 70px;
+    width: 180px;
 }
