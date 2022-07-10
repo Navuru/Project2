@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 body img{
@@ -29,17 +29,18 @@ span{
     font-size: xx-large;
 }
 .About{
-    /* width: 70%; */
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
+    width: auto;
+    height: 400px;
     background-image: url(/Images/image\ 1.png);
-    background-position: center center;
-    background-repeat:no-repeat ;
-    background-size:contain;
+    /* background-color: red; */
+    /* background-position: 50px 100px; */
+
 }
 .About img{
-    /* position: absolute; */
+    /* position:; */
     left: 500px;
     height: 200px;
     width: 300px;
