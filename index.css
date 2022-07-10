@@ -29,11 +29,14 @@ span{
     font-size: xx-large;
 }
 .About{
+    /* width: 70%; */
     font-family: 'Inter';
     display: flex;
     justify-content: space-around;
     background-image: url(/Images/image\ 1.png);
-    background-position: 50%;
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size:contain;
 }
 .About img{
     /* position: absolute; */
@@ -46,9 +49,11 @@ span{
     display: flex;
     justify-content: space-around;
     box-shadow:3px 3px rgb(224, 219, 219);
+    width: 800px;
     height:80px ;
     font-family: 'Inter';
     font-weight: bolder;
+    /* text-align: center; */
     /* font-size: large; */
 }
 .why{
