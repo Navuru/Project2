@@ -122,3 +122,10 @@ h2{
     height:180px ;
     width: 180px;
 }
+footer{
+    background-color: black;
+    color: white;
+}
+.center{
+    text-align: center;
+}
