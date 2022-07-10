@@ -16,6 +16,9 @@ body img{
     /* font-family: 'Poppins'; */
     font-weight: 900;
 }
+.navbar li{
+    color: white;
+}
 li{
     list-style-type: none;
 }
@@ -162,4 +165,10 @@ i{
     color: white;
     height: 50px;
     width: 30px;
+}
+.android{
+    border: 1px solid red;
+}
+.apple{
+    border: 1px solid red;
 }
