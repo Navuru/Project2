@@ -65,6 +65,7 @@ span{
 h2{
     font-family: 'Poppins';
     font-weight: bolder;
+    /* color: rebeccapurple; */
 }
 .products{
     text-align: center;
@@ -78,3 +79,24 @@ h2{
     height: 150px;
     width: 200px;
 }
+.newest{
+    display: flex;
+    justify-content: space-around;
+}
+.newest img{
+    height: 180px;
+    width:300px ;
+}
+#more{
+    text-align: right;
+}
+/* .shadow{
+    box-shadow:3px 3px rgb(216, 15, 15);
+    background-color: red;
+    color: red;
+} */
+.reviews{
+    display: flex;
+    justify-content: space-around;
+}
+.
